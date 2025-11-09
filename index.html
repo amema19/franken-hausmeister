@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franken Hausmeisterservice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Heldenteil -->
+    <header class="hero">
+        <div class="container">
+            <img src="assets/logo.svg" alt="Franken Hausmeisterservice Logo" class="logo">
+            <h1>Maßgeschneiderte Lösungen für Ihre Immobilie</h1>
+            <p>Ein sicheres und einladendes Umfeld für Ihr Zuhause oder Ihre Gewerbeimmobilie.</p>
+        </div>
+    </header>
+
+    <!-- Über uns -->
+    <section id="about">
+        <div class="container">
+            <h2>Über uns</h2>
+            <p>Franken Hausmeisterservice steht für zuverlässige Wartung, Reinigung und Betreuung von Immobilien jeder Art. Wir kümmern uns um alles, damit Sie sich wohlfühlen.</p>
+        </div>
+    </section>
+
+    <!-- Leistungen -->
+    <section id="services">
+        <div class="container">
+            <h2>Unsere Leistungen</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <h3>Reinigung</h3>
+                    <p>Regelmäßige Gebäudereinigung innen und außen.</p>
+                </div>
+                <div class="service">
+                    <h3>Gartenpflege</h3>
+                    <p>Rasen, Hecken, Bepflanzung und Winterdienst.</p>
+                </div>
+                <div class="service">
+                    <h3>Reparaturen</h3>
+                    <p>Kleinreparaturen, Instandhaltung und technische Wartung.</p>
+                </div>
+                <div class="service">
+                    <h3>Gebäudemanagement</h3>
+                    <p>Kontrolle von Haustechnik, Sicherheit und Funktionalität.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Referenzen -->
+    <section id="references">
+        <div class="container">
+            <h2>Referenzen</h2>
+            <div class="reference-grid">
+                <div class="reference">
+                    <p>„Schnell, zuverlässig und freundlich – unser Bürogebäude ist top gepflegt.“</p>
+                    <span>- Firma Müller</span>
+                </div>
+                <div class="reference">
+                    <p>„Unsere Wohnanlage wurde perfekt betreut, alles funktioniert einwandfrei.“</p>
+                    <span>- Hausverwaltung Schmidt</span>
+                </div>
+                <div class="reference">
+                    <p>„Danke für den tollen Winterdienst, wir mussten uns um nichts kümmern.“</p>
+                    <span>- Privatkunde Weber</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <p>Email: <a href="mailto:info@hausmeister-franken.de">info@hausmeister-franken.de</a></p>
+            <p>Telefon: <a href="tel:+4917659971677">+49 176 59971677</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Franken Hausmeisterservice</p>
+            <p><a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth Scrolling für interne Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+
+</body>
+</html>
